@@ -1,0 +1,5 @@
+# Docker Repo Source: Linked GOLANG rather than Ubuntu Sources:
+deb-src [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable edge test
+
+# Apt-get update which should reflect here:
+/etc/apt/sources.list.d/docker_local.list
